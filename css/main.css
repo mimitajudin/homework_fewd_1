@@ -1,0 +1,154 @@
+
+body{
+    margin: 0px;
+}
+
+.flex{
+    display: flex;
+}
+.header{
+    align-content: center;
+}
+.upperHeader nav ul li{
+   display: inline-block;
+}
+
+.upperHeader {
+    
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-bottom: 6px solid gold;
+    padding: 1px 10px 10px 20px
+
+}
+.upperHeader h1{
+    font-family: Verdana;
+    color: gold;
+}
+
+.upperHeader nav{
+    font-family: fantasy;
+    color: white;
+}
+
+.upperHeader nav ul li{
+    padding: 17px;
+    font-size: 15px;
+}
+
+.lowerHeader {
+    text-align: center;
+    background-color: lavender;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+span.taste{
+text-decoration: line-through ;
+}
+
+span.are{
+    text-decoration: underline gold;
+
+}
+
+
+container{
+    
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    padding-right: 20px; 
+    height: 700px;
+    background: url(../images/workspace.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+div.box{
+    background-color: rgba(250, 248, 248, 0.9);
+    height: 200px;
+    width: 350px;
+    padding: 40px;
+    text-align: justify;
+    font-family: sans-serif;
+    
+    
+    
+}
+
+.button {
+  background-color: #f0ec28;
+  border: none;
+  color: black;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 3px;
+  cursor: pointer;
+  width: 100%;
+  transition-duration: 0.4s;
+  font-family: Impact;
+  
+
+}
+
+.button:hover{
+    background-color: grey; 
+    color: black; 
+    
+}
+
+.content{
+    text-align: justify;
+    font-family: Verdana;
+    
+    
+    
+}
+.section1{
+    padding: 15px;
+    border-right: 1px solid grey;
+    flex-direction: column ;
+    
+}
+
+.section2 {
+    padding: 15px;
+    flex-direction: row;
+}
+
+.section3{
+    padding:15px;
+    border-left: 1px solid grey;
+}
+
+
+.button1{
+  background-color: grey;
+  border: none;
+  color: black;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 2px;
+  cursor: pointer;
+  width: 100%;
+  transition-duration: 0.4s;
+  font-family:fantasy;
+}
+
+.button1:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
